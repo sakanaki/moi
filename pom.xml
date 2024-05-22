@@ -18,6 +18,8 @@
 <!--		<sonar.host.url>http://34.211.215.66:9000</sonar.host.url>-->
 <!--		<sonar.token>sqp_32dca263889d22cc8c8e4389420c962280ab549f</sonar.token>-->
 <!--	</properties>-->
+
+
 	<dependencies>
 		<!-- JPA -->
 		<!--貌似跟VERTICA衝突，先不用-->
@@ -311,11 +313,11 @@
 			</plugin>
 
 			<!--sonarsource-->
-			<plugin>
-				<groupId>org.sonarsource.scanner.maven</groupId>
-				<artifactId>sonar-maven-plugin</artifactId>
-				<version>3.11.0.3922</version>
-			</plugin>
+<!--			<plugin>-->
+<!--				<groupId>org.sonarsource.scanner.maven</groupId>-->
+<!--				<artifactId>sonar-maven-plugin</artifactId>-->
+<!--				<version>3.11.0.3922</version>-->
+<!--			</plugin>-->
 
 			<!--helper-->
 <!--			<plugin>-->
